@@ -9,14 +9,7 @@
             Dado que eu acesse a página de cadastro do portal EBAC
 
             Esquema do Cenário: autenticar multiplos usuários com dados válidos
-            Quando eu digitar o <nome>
-            E <sobrenome>
-            E <pais>
-            E <endereco>
-            E <cidade>
-            E <cep>
-            E <telefone>
-            E <endereco_de_email>
+            Quando eu digitar o <nome>, <sobrenome>, <pais>, <endereco>, <cidade>, <cep>, <telefone>, <endereco_de_email>
             Então deve exibir a <mensagem> de sucesso
 
             Exemplos:
@@ -27,14 +20,7 @@
 
             
             Esquema do Cenário: Fazer cadastro com dados inválidos
-            Quando eu digitar o <nome>
-            E <sobrenome>
-            E <pais>
-            E <endereco>
-            E <cidade>
-            E <cep>
-            E <telefone>
-            E <endereco_de_email>
+            Quando eu digitar o <nome>, <sobrenome>, <pais>, <endereco>, <cidade>, <cep>, <telefone>, <endereco_de_email>
             Então deve exibir a <mensagem> de erro
 
             Exemplos:
